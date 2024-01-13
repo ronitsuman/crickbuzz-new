@@ -1,0 +1,25 @@
+  background: linear-gradient(#cdffd8, #94b9ff);
+   <meta
+      name="description"
+      content="it contain the match live score , match live preview , match related news ,live commentatary of match  by coderronit"
+      <title>
+      Live Cricket Score , Schedule , Latest News , Stats & Videos || coderronit
+      crickbuzz
+    </title>
+
+     <select name="news" id="selct">news
+                <option value="news">News </option>
+                <option value="news"> crickbuzz plus</option>
+                <option value="news"> All stories</option>
+                <option value="news"> Latest News</option>
+                <option value="news"> Topics</option>
+                <option value="news"> SpotLight</option>
+                <option value="news"> Opinion </option>
+                <option value="news"> Specials</option>
+                <option value="news"> Stats & Analysis</option>
+                <option value="news">
+                    Interview
+                </option>
+                <option value="news"> Live Blogs </option>
+                <option value="news">Ronit suman</option>
+            </select> 
