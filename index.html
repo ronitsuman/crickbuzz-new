@@ -7,6 +7,7 @@
       Live Cricket Score , Schedule , Latest News , Stats & Videos || coderronit
       crickbuzz
     </title>
+    <link rel="shortcut icon" href="new.jpg" type="image/jpg">
     <meta
       name="description"
       content="it contain the match live score , match live preview , match related news ,live commentatary of match  by coderronit"
@@ -16,12 +17,19 @@
         width: 95%;
         display: flex;
       } */
-      ul {
+      .navbar>ul {
+        list-style-type: none ;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: linear-gradient(#499b5b, #4065aa);
+      }
+      .snavbar>ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background: linear-gradient(#cdffd8, #94b9ff);
+        background: black;
       }
       a{
         text-transform: capitalize;
@@ -34,11 +42,12 @@
 
       li:last-child {
         border-right: none;
+        
       }
 
       li a {
         display: block;
-        color: white;
+        color: whitesmoke;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -53,14 +62,14 @@
       }
       #border{
 
-        background-color: whitesmoke;
+        background: linear-gradient(#499b5b, #c7c9ce);
         border-radius: 40%;
-        color: black;
+        color: whitesmoke;
         margin-top: 5px;
         margin-bottom: 4px;
       }
       .dropbtn {
-        background: linear-gradient(#cdffd8, #94b9ff);
+        background: linear-gradient(#499b5b, #4065aa);
         align-items: center;
         margin-top: 10px;
         margin-bottom: 20px ;
@@ -100,14 +109,14 @@
   </head>
   <body>
     <div class="navbar">
-      <ul>
-        <li><img src="WhatsApp Image 2024-01-13 at 13.29.26_b2ea5f03.jpg" alt=""></li>
+      <ul >
+        <li><img src="newlogo.jpg" alt=""></li>
         <li> <a href="livescore">Live score</a></li>
         <li><a href="schedule">Schedule</a> </li>
         <li><a href="archive">Archives</a></li>
         <li>
             <div class="dropdown">
-                <button class="dropbtn"> News  
+                <button class="dropbtn"> News 🡫  
                   <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
@@ -131,7 +140,7 @@
         </li>
         <li> 
             <div class="dropdown">
-            <button class="dropbtn"> Series 
+            <button class="dropbtn"> Series 🡫
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
@@ -149,7 +158,7 @@
             </div></li>
         <li>
             <div class="dropdown">
-                <button class="dropbtn"> Teams  
+                <button class="dropbtn"> Teams 🡫 
                   <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
@@ -168,7 +177,7 @@
                   <a href="#">coderRonit</a>
                 </div></li>
         <li> <div class="dropdown">
-            <button class="dropbtn"> Videos 
+            <button class="dropbtn"> Videos 🡫
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
@@ -178,7 +187,7 @@
             </div></li>
         <li>
             <div class="dropdown">
-                <button class="dropbtn"> Ranking 
+                <button class="dropbtn"> Ranking  🡫
                   <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
@@ -188,7 +197,7 @@
                 </div>
         </li>
         <li> <div class="dropdown">
-            <button class="dropbtn"> more
+            <button class="dropbtn"> more 🡫
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
@@ -209,15 +218,16 @@
       </ul>
     </div>
 
-    <div class="secndnavbar">
-        <ul>
+    <div class="snavbar">
+        <ul >
             <li><a href="#">MATCHES</a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
+            <li><a href="#">PRS VS BRS -LIVE</a></li>
+            <li><a href="#">MLR VS MLS - PREVIEW </a></li>
+            <li><a href="#">PR vs PC Won</a></li>
+            <li><a href="#">JSK VS MIICE- preview</a></li>
+            <li><a href="#">NZ vs PAK - Preview </a></li>
+            <li ><a style="color: red;" href="#">All > > > ></a></li>
+            
           
           
         </ul>
