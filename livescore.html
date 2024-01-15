@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>live score</title>
+    <style>
+               .navbar>ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: linear-gradient(#499b5b, #4065aa);
+            min-width: 100px;
+        }
+
+        .snavbar>ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: black;
+        }
+          
+
+        a {
+            text-transform: capitalize;
+        }
+
+        li {
+            float: left;
+            border-right: 1px solid #312a2a;
+        }
+
+        li:last-child {
+            border-right: none;
+
+        }
+
+        li a {
+            display: block;
+            color: whitesmoke;
+            /* text-align: center; */
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background: blueviolet;
+        }
+
+        .active {
+            background-color: black;
+        }
+
+        #border {
+
+            background: linear-gradient(#499b5b, #c7c9ce);
+            border-radius: 40%;
+            color: whitesmoke;
+            margin-top: 5px;
+            margin-bottom: 4px;
+        }
+
+        .dropbtn {
+            background: linear-gradient(#499b5b, #4065aa);
+            align-items: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            color: white;
+            border: 0;
+            justify-content: space-between;
+            float: left;
+            font-size: 18px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12 px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background: linear-gradient(#cdffd8, #94b9ff);
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+          
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><img src="newlogo.jpg" alt=""></li>
+            <li> <a href="livescore">Live score</a></li>
+            <li><a href="schedule">Schedule</a> </li>
+            <li><a href="archive">Archives</a></li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn"> News 🡫
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">News</a>
+                        <a href="#">All Stories</a>
+                        <a href="#">Crickbizz Plus </a>
+                        <a href="#">Latest News</a>
+                        <a href="#">Topics</a>
+                        <a href="#">Spotlight</a>
+                        <a href="#">Opinion</a>
+                        <a href="#">Special</a>
+                        <a href="#">Stats & Anylysis</a>
+                        <a href="#">Interview</a>
+                        <a href="#">Live Blogs</a>
+                        <a href="#">Ronit Suman</a>
+                    </div>
+
+
+
+
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn"> Series 🡫
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">afganistan tour of india 2024</a>
+                        <a href="#">zimbabwe tour of sri lanka 2024</a>
+                        <a href="#">big -bash league 2023-24</a>
+                        <a href="#">west indies tour of australia 2024</a>
+                        <a href="#"> sa 20, 2024</a>
+                        <a href="#">pakistan tour of new zealand , 2024 </a>
+                        <a href="#">ranji trophy 2023-24</a>
+                        <a href="#">internalional league t20 ,2024</a>
+                        <a href="#">super smash 2023 - 24 </a>
+                        <a href="#" style="text-decoration-color: blue;">All series > > > </a>
+
+                    </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn"> Teams 🡫
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <h3>Test team</h3>
+                        <a href="#">india</a>
+                        <a href="#">afganistan</a>
+                        <a href="#">ireland </a>
+                        <a href="#">pakistan</a>
+                        <a href="#">sri-lanka</a>
+                        <a href="#">bangladesh</a>
+                        <a href="#">england</a>
+                        <a href="#">west indies</a>
+                        <a href="#">south africa</a>
+                        <a href="#">zimbabawe</a>
+                        <a href="#">new-zealand</a>
+                        <a href="#">coderRonit</a>
+                    </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn"> Videos 🡫
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">all video</a>
+                        <a href="#">category</a>
+                        <a href="#">playlist</a>
+                    </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn"> Ranking 🡫
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">ICC RANK - Men</a>
+                        <a href="#">ICC RANK - woMen</a>
+                        <a href="#">thanks for watching deeply </a>
+                    </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn"> more 🡫
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+
+                        <a href="#">world test championship </a>
+                        <a href="#">ipl live stream</a>
+                        <a href="#">world cup super leaugue</a>
+                        <a href="#">phots</a>
+                        <a href="#">mobile apps</a>
+                        <a href="#">carrers</a>
+                        <a href="#">contacts us</a>
+
+                        <a href="#">thanks for watching deeply </a>
+                    </div>
+            </li>
+            <li><a href="coderronit" id="border">coderRonit</a></li>
+            <li><a href="">search</a></li>
+            <li><a href="profile">profile</a></li>
+        </ul>
+    </div>
+
+    <div class="snavbar">
+        <ul>
+            <li><a href="#">MATCHES</a></li>
+            <li><a href="#">PRS VS BRS -LIVE</a></li>
+            <li><a href="#">MLR VS MLS - PREVIEW </a></li>
+            <li><a href="#">PR vs PC Won</a></li>
+            <li><a href="#">JSK VS MIICE- preview</a></li>
+            <li><a href="#">NZ vs PAK - Preview </a></li>
+            <li><a style="color: red;" href="#">All > > > ></a></li>
+
+
+
+        </ul>
+    </div>
+<div class="livescore">
+    <h1>updating soon </h1>
+    
+</div>
+    
+</body>
+</html>
